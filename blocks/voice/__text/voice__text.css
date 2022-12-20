@@ -1,0 +1,21 @@
+.voice__text {
+  max-width: 670px;
+  padding: 70px 0 75px 99px;
+}
+@media screen and (max-width: 1820px) {
+  .voice__text {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .voice__text {
+    max-width: 350px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .voice__text {
+    width: 95%;
+    height: fit-content;
+    padding: 20px 0 75px 25px;
+  }
+}

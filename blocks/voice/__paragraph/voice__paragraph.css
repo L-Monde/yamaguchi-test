@@ -1,0 +1,31 @@
+.voice__paragraph {
+  width: 585px;
+  margin-bottom: 30px;
+
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 170%;
+}
+@media screen and (max-width: 1820px) {
+  .voice__paragraph {
+    font-size: 20px;
+    max-width: 350px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .voice__paragraph {
+    font-size: 18px;
+    max-width: 550px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .voice__paragraph {
+    font-size: 16px;
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .voice__paragraph {
+    max-width: 289px;
+  }
+}

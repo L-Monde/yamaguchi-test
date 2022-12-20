@@ -1,0 +1,37 @@
+.ergo {
+  height: 900px;
+  background-color: #f3f3f3;
+}
+.ergo * {
+  font-family: "Ubuntu";
+}
+@media screen and (max-width: 1820px) {
+  .ergo {
+    height: fit-content;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .ergo {
+    padding-bottom: 80px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .ergo {
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .ergo {
+    padding-bottom: 40px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .ergo {
+    padding-bottom: 10px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .ergo {
+    padding-bottom: 0;
+  }
+}

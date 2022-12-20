@@ -1,0 +1,30 @@
+.ergo__content {
+  max-width: 65%;
+  margin: 0 auto 100px 200px;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1820px) {
+  .ergo__content {
+    max-width: 85%;
+    margin: 0 auto;
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 1620px) {
+  .ergo__content {
+    max-width: 95%;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .ergo__content {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 620px) {
+  .ergo__content {
+    padding: 20px 0 0;
+  }
+}

@@ -1,0 +1,95 @@
+.voice__phrase {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 110%;
+}
+.voice__phrase b {
+  font-size: 60px;
+  position: relative;
+  top: 30px;
+  right: -60px;
+  display: inline-block;
+}
+@media screen and (max-width: 1820px) {
+  .voice__phrase {
+    position: relative;
+    top: 120px;
+  }
+  .voice__phrase b {
+    left: 40px;
+    width: 650px;
+  }
+}
+@media screen and (max-width: 1620px) {
+  .voice__phrase b {
+  }
+}
+@media screen and (max-width: 1420px) {
+}
+@media screen and (max-width: 1220px) {
+}
+@media screen and (max-width: 1020px) {
+  .voice__phrase {
+    top: 1170px;
+    left: -280px;
+    font-size: 40px;
+  }
+  .voice__phrase b {
+    left: 280px;
+    width: 650px;
+    font-size: 55px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .voice__phrase {
+    left: -220px;
+    font-size: 38px;
+    top: 1070px;
+  }
+  .voice__phrase b {
+    left: 260px;
+    font-size: 52px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .voice__phrase {
+    font-size: 30px;
+    top: 930px;
+    left: -180px;
+  }
+  .voice__phrase b {
+    position: relative;
+    font-size: 38px;
+    left: 180px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .voice__phrase {
+    top: 850px;
+    left: -140px;
+  }
+  .voice__phrase b {
+    left: 190px;
+    top: 20px;
+    width: 70vw;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 420px) {
+  .voice__phrase {
+    left: -130px;
+    top: 820px;
+  }
+  .voice__phrase b {
+    top: 30px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .voice__phrase {
+    left: -80px;
+  }
+
+  .voice__phrase b {
+    left: 100px;
+  }
+}

@@ -1,0 +1,36 @@
+.voice {
+  height: 900px;
+  background-color: #181818;
+  background-image: url(../../images/voice_bacground.svg);
+  background-repeat: no-repeat;
+  font-family: "Montserrat";
+  color: #fff;
+}
+@media screen and (max-width: 1820px) {
+  .voice {
+    padding-bottom: 60px;
+    height: fit-content;
+    background-repeat: repeat;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .voice {
+    padding-bottom: 220px;
+    background-repeat: repeat;
+  }
+}
+@media screen and (max-width: 920px) {
+  .voice {
+    padding-bottom: 260px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .voice {
+    background-image: none;
+  }
+}
+@media screen and (max-width: 620px) {
+  .voice {
+    padding-bottom: 290px;
+  }
+}

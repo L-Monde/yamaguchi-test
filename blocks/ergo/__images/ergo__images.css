@@ -1,0 +1,28 @@
+.ergo__images {
+}
+@media screen and (max-width: 1820px) {
+  .ergo__images {
+    max-width: 766px;
+  }
+}
+@media screen and (max-width: 1420px) {
+  .ergo__images {
+    max-width: 666px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .ergo__images {
+    margin: 0 auto;
+    transform: translateY(-160px);
+  }
+}
+@media screen and (max-width: 620px) {
+  .ergo__images {
+    max-width: 485px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .ergo__images {
+    transform: translateY(-260px);
+  }
+}

@@ -1,0 +1,18 @@
+.images {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  max-height: 780px;
+}
+
+@media screen and (max-width: 1420px) {
+  .images {
+    max-width: 650px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .images {
+    max-width: 600px;
+  }
+}

@@ -1,0 +1,34 @@
+.buttons {
+  z-index: 2;
+  position: relative;
+  margin: 0 auto;
+  top: -40%;
+}
+@media screen and (max-width: 1620px) {
+  .buttons {
+  }
+}
+@media screen and (max-width: 1420px) {
+  .buttons {
+    top: -230px;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .buttons {
+  }
+}
+@media screen and (max-width: 620px) {
+  .buttons {
+    top: -180px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .buttons {
+    top: -160px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .buttons {
+    top: -100px;
+  }
+}
